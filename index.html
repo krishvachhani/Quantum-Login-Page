@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quantum Login Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="header-div">
+      <img id="logo-header" src="./Assets/icons/header_logo.svg" alt="" />
+    </nav>
+
+    <div class="card-component">
+      <div class="header__div">
+        <img class="header__div__icon" src="./Assets/icons/back.svg" alt="" />
+        <p class="header__div__heading">Log In With Quantum</p>
+      </div>
+      <form action="submit">
+        <div class="radio__button">
+          <input
+            type="radio"
+            name="radio-1"
+            class="radio__btns"
+            id="Disctrict"
+          /><span class="btn-text">District</span>
+          <input
+            type="radio"
+            name="radio-1"
+            class="radio__btns"
+            id="Independent School"
+          /><span class="btn-text">Independent School</span>
+        </div>
+        <div class="dropdown__1">
+          <label for="states" class="dropdown__label" id="State">States*</label>
+          <select name="states" id="">
+            <option value="Gujarat" class="dropdown__option">Gujarat</option>
+            <option value="Maharashra" class="dropdown__option">
+              Maharashtra
+            </option>
+          </select>
+        </div>
+        <div class="dropdown__2">
+          <label for="district" class="dropdown__label" id="District"
+            >District*</label
+          >
+          <select name="district" id="">
+            <option value="Rajkot" class="dropdown__option">
+              Rajkot
+            </option>
+            <option value="Mumbai" class="dropdown__option">Mumbai</option>
+          </select>
+        </div>
+        <div class="input__1">
+          <input type="text" placeholder="Username/Email ID*" />
+          <span class="input__text">FORGOT USERNAME?</span>
+        </div>
+        <div class="input__2">
+          <div class="input__2__password">
+            <input type="text" placeholder="Password*" />
+            <img
+              class="input__2__icon"
+              src="./Assets/icons/preview.svg"
+              alt=""
+            />
+          </div>
+          <span class="input__text">FORGOT PASSWORD?</span>
+        </div>
+        <div class="checkbox__1">
+          <input type="checkbox" name="Remember" id="" />
+          <span>Remember Me</span>
+        </div>
+        <div class="login__button">
+          <a href="">LOG IN</a>
+        </div>
+      </form>
+    </div>
+
+    <div class="bottom__div">
+      <p style="margin-right: 8px">About</p>
+      <p style="border-left: 1px solid #0000001f; padding-left: 10px">
+        Contact Us
+      </p>
+    </div>
+    <div class="footer">
+      <div class="footer_div">
+        <img
+          class="bottom_footer_image"
+          src="./assets/icons/footer_logo.svg"
+          alt=""
+        />
+        <p style="border-left: 1px solid #0000001f; padding-left: 10px">
+          Copyright © 2020-2021
+        </p>
+        <p class="footer_text"><b>Zeus Systems Pvt. Ltd.</b></p>
+        <p class="footer_text">All rights reserved.</p>
+      </div>
+    </div>
+  </body>
+</html>
