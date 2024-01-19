@@ -7,13 +7,13 @@
 }
 
 body {
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
 
 .header-div {
   background-color: #25313f;
   height: 56px;
-  border-bottom: 1px solid #31B9E4;
+  border-bottom: 1px solid #31b9e4;
 }
 
 nav::before {
@@ -37,26 +37,23 @@ nav::before {
 
 .card-component {
   background-color: #fff;
-  width: 500px;
+  width: 488px;
   margin: auto;
   margin-top: 50px;
-  border-top: 4px solid #31B9E4;
-  padding: 22px 30px;
+  border-top: 4px solid #31b9e4;
+  padding: 22px 32px;
   position: relative;
 }
 .card-component .header__div {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
 }
 .card-component .header__div__icon {
   height: 26px;
 }
 .card-component .header__div__heading {
   font-size: 24px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-left: 77px;
 }
 
 .radio__button {
@@ -85,11 +82,11 @@ input[type=radio]:after {
   content: "";
   display: inline-block;
   visibility: visible;
-  border: 3px solid #1F7A54;
+  border: 3px solid #1f7a54;
 }
 
 input[type=radio]:checked:after {
-  box-shadow: inset 10px 12px #1F7A54;
+  box-shadow: inset 10px 12px #1f7a54;
 }
 
 .dropdown__label {
@@ -126,9 +123,20 @@ input[type=text] {
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 
+input[type=password] {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #666666;
+  margin-top: 33px;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
 .input__text {
   font-size: 14px;
-  color: #1F7A54;
+  color: #1f7a54;
   font-weight: 500;
   display: block;
   text-align: right;
@@ -161,21 +169,23 @@ input[type=checkbox] {
 }
 
 .login__button {
-  background-color: #3FD28B;
+  background-color: #3fd28b;
   text-align: center;
+  width: 215.51px;
+  height: 40px;
   padding: 10px 0px;
-  margin: 34px 136px 0px 136px;
+  margin: 34px auto 0px auto;
 }
 
 a {
   text-decoration: none;
-  color: #1F2834;
+  color: #1f2834;
   font-weight: 700;
 }
 
 .bottom__div {
   width: 100%;
-  color: #1F7A54;
+  color: #1f7a54;
   display: flex;
   justify-content: center;
   position: absolute;
@@ -183,7 +193,7 @@ a {
 }
 
 .footer_div {
-  background-color: #E0E1E1;
+  background-color: #e0e1e1;
   padding: 8px 0px 8px 0px;
   width: 100%;
   height: 40px;
